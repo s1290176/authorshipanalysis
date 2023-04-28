@@ -1,9 +1,27 @@
 # Authorship Analysis
 
- Trello team D
+Our team in Trello is *Group D*.
  
- Source code - auth.py
- Data set - gutenberg
- result text - result.txt
+This repository contains the following contents;
  
- # Excution Step
+* Source code - *auth.py*
+* Data set - *gutenberg*
+* Result text - *result.txt*
+
+## What the program does
+
+This program takes two *known text* and one *questioned text*. Then, it computes the log-likelihood function and decides which of two text is near to questioned text. This type of task is classification.
+
+ 
+## Excution Step
+
+**Step1:** Make sure that the source code(*auth.py*) and data set(*gutenberg*) are in the same directory.
+
+**Step2:** Run the following command in terminal with any file name in the data set;
+```
+python3 auth.py filename1 filename2 filename3
+```
+
+Note: The `filename1` and `filename2` correspond to the *known text* and `filename3` corresponds to the *questioned text*.
+
+**Step3:** The result is shown in the *result.txt* with the value of log-likelihood function.
