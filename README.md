@@ -13,7 +13,7 @@ This repository contains the following contents;
 This program takes two *known text* and one *questioned text*. Then, it computes the log-likelihood function and decides which of two text is near to questioned text. This type of task is classification.
 
  
-## Excution Step
+## Execution Step
 
 **Step1:** Make sure that the source code(*auth.py*) and data set(*gutenberg*) are in the same directory.
 
