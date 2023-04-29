@@ -24,4 +24,18 @@ python3 auth.py filename1 filename2 filename3
 
 Note: The `filename1` and `filename2` correspond to the *known text* and `filename3` corresponds to the *questioned text*.
 
+For example,
+```
+python3 auth.py austen-emma.txt shakespeare-caesar.txt austen-sense.txt
+```
+
+In this case, the known texts are *austen-emma.txt* and *shakespeare-caesar.txt*, the questioned text is *austen-sense.txt*.
+
 **Step3:** The result is shown in the *result.txt* with the value of log-likelihood function.
+
+Note: The result already shown from the beginning is by the example of previous Step2.
+
+
+## Reference
+
+1. https://thecleverprogrammer.com/2021/01/01/authorship-attribution-with-python/
