@@ -1,0 +1,6 @@
+Questioned text name: austen-sense.txt
+
+log likelihood of austen-emma.txt = -1452323.2957657545
+log likelihood of shakespeare-caesar.txt = -1511151.0445055238
+
+The questioned text has a higher probability written by the author of austen-emma.txt than that of shakespeare-caesar.txt.
