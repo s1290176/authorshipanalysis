@@ -10,7 +10,7 @@ This repository contains the following contents;
 
 ## What the program does
 
-This program takes two *known text* and one *questioned text*. Then, it computes the log-likelihood function and decides which of two text is near to questioned text. This type of task is classification.
+This program takes two *known text* and one *questioned text*. Then, it computes the log-likelihood function and decides which of two text is near to questioned text.
 
  
 ## Execution Step
