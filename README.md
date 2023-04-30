@@ -33,7 +33,7 @@ In this case, the known texts are *austen-emma.txt* and *shakespeare-caesar.txt*
 
 **Step3:** The result is shown in the *result.txt* with the value of log-likelihood function for each *known text*.
 
-Note: The result already shown from the beginning is by the example of previous Step2.
+Note: The result already shown from the beginning is by the example of Step2.
 
 
 ## Reference
