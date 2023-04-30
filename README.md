@@ -31,7 +31,7 @@ python3 auth.py austen-emma.txt shakespeare-caesar.txt austen-sense.txt
 
 In this case, the known texts are *austen-emma.txt* and *shakespeare-caesar.txt*, the questioned text is *austen-sense.txt*.
 
-**Step3:** The result is shown in the *result.txt* with the value of log-likelihood function.
+**Step3:** The result is shown in the *result.txt* with the value of log-likelihood function for each *known text*.
 
 Note: The result already shown from the beginning is by the example of previous Step2.
 
