@@ -15,7 +15,7 @@ This program takes two *known text* and one *questioned text*. Then, it computes
  
 ## Execution Step
 
-**Step1:** Make sure that the source code(*auth.py*) and data set(*gutenberg*) are in the same directory.
+**Step1:** Make sure that the source code(*auth.py*) is in the current directory.
 
 **Step2:** Run the following command in terminal with any file name in the data set;
 ```
