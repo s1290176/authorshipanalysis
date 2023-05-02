@@ -2,8 +2,8 @@ import numpy as np
 import nltk
 import sys
 
-#nltk.download('gutenberg')
-#nltk.corpus.gutenberg.fileids()
+nltk.download('gutenberg')
+nltk.corpus.gutenberg.fileids()
 
 known_text_1 = sys.argv[1]
 known_text_2 = sys.argv[2]
