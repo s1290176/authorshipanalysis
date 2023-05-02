@@ -1,22 +1,17 @@
 import numpy as np
-import nltk
 import sys
-
-nltk.download('gutenberg')
-nltk.corpus.gutenberg.fileids()
 
 known_text_1 = sys.argv[1]
 known_text_2 = sys.argv[2]
 questioned_text = sys.argv[3]
 
 try:
-    known_text_1_words = nltk.corpus.gutenberg.words(known_text_1)
-    known_text_1_words = ' '.join(known_text_1_words)
-    known_text_2_words = nltk.corpus.gutenberg.words(known_text_2)
-    known_text_2_words = ' '.join(known_text_2_words)
-    questioned_text_words = nltk.corpus.gutenberg.words(questioned_text)
-    questioned_text_words = ' '.join(questioned_text_words)
-
+    with open("gutenberg/{}".format(known_text_1), errors="ignore", encoding="utf-8") as f:
+        known_text_1_words = f.read()
+    with open("gutenberg/{}".format(known_text_2), errors="ignore", encoding="utf-8") as f:
+        known_text_2_words = f.read()
+    with open("gutenberg/{}".format(questioned_text), errors="ignore", encoding="utf-8") as f:
+        questioned_text_words = f.read()
 except:
     print("Warning: The given text name are not found in the data set.")
     sys.exit()
